@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,32 +20,32 @@
                     <div class="gofa">
                         <div class="google">
                             <a href="#">
-                                <img src="/images/google.png" alt="" srcset="">
+                                <img src="images/google.png" alt="" srcset="">
                                 <h3>Sign up with Google</h3>
                             </a>
                         </div>
                         <div class="google">
                             <a href="#">
-                                <img src="/images/facebook.png" alt="" srcset="">
+                                <img src="images/facebook.png" alt="" srcset="">
                                 <h3>Sign up with Facebook</h3>
                             </a>
                         </div>
                     </div>
                     <h3>-OR-</h3>
-                    <form class="info">
-                        <input type="text" placeholder="Full Name" name="inputField" >
+                    <form  action= ""class="info">
+                        <input type="text" placeholder="Full Name" name="name" >
                         <div class="line"></div>
-                        <input type="text" placeholder="Unique Disability Id" name="inputField">
+                        <input type="text" placeholder="Unique Disability Id" name="udid">
                         <div class="line"></div>
-                        <input id="hideShow" type="password" placeholder="Password" maxlength="10" name="inputField">
-                        <img id="show" src="/images/eye-close.png" alt="" srcset="">
+                        <input id="hideShow" type="password" placeholder="Password" maxlength="10" name="password">
+                        <img id="show" src="images/eye-close.png" alt="" srcset="">
                         <div class="line"></div>
-                        <button type="submit" >Create Account</button>
-                        <h4>Already have an acoount? <a href="login.html" style="text-decoration: none; color: blue;">Log in</a></h4>
+                        <button type="submit" name="submit" >Create Account </button>
+                        <h4>Already have an acoount? <a href="login.php" style="text-decoration: none; color: blue;">Log in</a></h4>
                     </form>
                 </div>  
             </div>
-            <img class="bgImg" src="/images/login_bg.svg" alt="" srcset="">
+            <img class="bgImg" src="images/login_bg.svg" alt="" srcset="">
         </div>
     </div>
 
@@ -54,11 +58,11 @@
         show.onclick = function(){
             if(password.type == "password"){
                 password.type = "text";
-                show.src = "/images/eye-open.png";
+                show.src = "images/eye-open.png";
             }
             else{
                 password.type ="password";
-                show.src = "/images/eye-close.png";
+                show.src = "images/eye-close.png";
             }
         }
     </script>

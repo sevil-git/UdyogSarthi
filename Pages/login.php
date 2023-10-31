@@ -16,13 +16,13 @@
                     <div class="gofa">
                         <div class="google">
                             <a href="#">
-                                <img src="/images/google.png" alt="" srcset="">
+                                <img src="images/google.png" alt="" srcset="">
                                 <h3>Log in with Google</h3>
                             </a>
                         </div>
                         <div class="google">
                             <a href="#">
-                                <img src="/images/facebook.png" alt="" srcset="">
+                                <img src="images/facebook.png" alt="">
                                 <h3>Log in with Facebook</h3>
                             </a>
                         </div>
@@ -32,14 +32,14 @@
                         <input type="text" placeholder="Unique Disability Id" name="inputField" maxlength="15">
                         <div class="line"></div>
                         <input id="hideShow" type="password" placeholder="Password" maxlength="10" name="inputField">
-                        <img id="show" src="/images/eye-close.png" alt="" srcset="">
+                        <img id="show" src="images/eye-close.png" alt="" srcset="">
                         <div class="line"></div>
                         <button type="submit" >Log in</button>
-                        <h4>Don't have an account? <a href="signup.html" style="text-decoration: none; color: blue;">Create</a></h4>
+                        <h4>Don't have an account? <a href="signup.php" style="text-decoration: none; color: blue;">Create</a></h4>
                     </form>
                 </div>
             </div>
-            <img class="bgImg" src="/images/login_bg1.svg" alt="" srcset="">
+            <img class="bgImg" src="images/login_bg1.svg" alt="" srcset="">
         </div>
     </div>
 
@@ -52,11 +52,11 @@
         show.onclick = function(){
             if(password.type == "password"){
                 password.type = "text";
-                show.src = "/images/eye-open.png";
+                show.src = "images/eye-open.png";
             }
             else{
                 password.type ="password";
-                show.src = "/images/eye-close.png";
+                show.src = "images/eye-close.png";
             }
         }
     </script>
