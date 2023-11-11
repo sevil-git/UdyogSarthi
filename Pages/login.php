@@ -39,6 +39,7 @@
                     </form>
                 </div>
             </div>
+            <img src="images/logo.png" alt="" class="logo">
             <img class="bgImg" src="images/login_bg1.svg" alt="" srcset="">
         </div>
     </div>
